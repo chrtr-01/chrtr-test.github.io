@@ -1,0 +1,297 @@
+
+  body{
+    margin:0px;
+    font-family: HelveticaNeue-Medium,'Roboto';
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.75px;
+  }
+
+  .left-container{
+    position: fixed;
+    min-height:100vh;
+    width: 40%;
+    top:0px;
+    background-color: #FAFAFA;
+    /* padding-bottom: 80px; */
+
+
+  }
+  .right-container{
+    position: absolute;
+    left:40%;
+    min-height:100vh;
+    width:60%;
+    background-color: #ffffff;
+    top:0px;
+  }
+  #logo{
+    width:202px;
+    height:150px;
+    display: block;
+    margin:0 auto;
+  }
+  #title{
+    position: relative;
+    display: block;
+    margin:0 auto;
+    padding: 15px;
+
+    z-index: 999999;
+
+    width:70%;
+    top:100px;
+    /* top: 30%;
+    left:30%; */
+
+
+  }
+  h1{
+    font-family: HelveticaNeue-Bold;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 1.5px;
+    /* line-height: 49px; */
+    text-align: center;
+    /* SURVEY: */
+    position: relative;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    padding: 20px;
+
+
+
+
+  }
+  .sub-title{
+    position: relative;
+    top:70px;
+
+  }
+  .apply-button{
+    position: relative;
+    text-align: center;
+    top:30px;
+  }
+  #footer{
+    position: absolute;
+    left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+    bottom: 0px;
+    font-family: AvenirNext-Regular;
+    font-size: 18px;
+    color: #515151;
+    letter-spacing: 0.34px;
+    text-align: center;
+  }
+
+
+
+  p{
+        /* Help us to serve you: */
+    /* font-family: OpenSans;
+    font-size: 18px;
+    color: #5E5E5E;
+    letter-spacing: 0.75px;
+    text-align: center;
+    opacity: 0.92; */
+    font-family: AvenirNext-Regular;
+    font-size: 20px;
+    color: #515151;
+    letter-spacing: 0.38px;
+    text-align: justify;
+    line-height: 27px;
+
+  }
+  .navbar{
+    overflow: hidden;
+    width: 100%;
+    top:0;
+  }
+  .navbar a{
+    /* font-family: Helvetica Neue;
+    font-weight: lighter;
+    letter-spacing: 0.2vw;
+    display: inline-block;
+    color: #130F0D;
+    text-align: center;
+    padding: 1.4vw 3.5vw;
+    text-decoration: none; */
+    font-family: Roboto-light;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #515151;
+    padding: 18px 40px;
+    letter-spacing: 0.34px;
+    text-align: center;
+    display: inline-block;
+
+
+
+
+  }
+  .navbar a:active{
+    font-weight: bold;
+
+  }
+  /* .navbar a:hover{
+    background-color: #FAFAFA;
+
+
+
+
+  } */
+
+
+
+
+
+#home-title{
+  opacity: 0.9;
+  font-family: AvenirNext-Bold,'Roboto';
+  font-weight: bold;
+  font-size: 46px;
+  color: #575656;
+  letter-spacing: 1.63px;
+  text-align: center;
+  line-height: 60px;
+  position: relative;
+  top:70px;
+}
+#route-img{
+
+}
+#schedule-img{
+
+
+
+}
+#check-img{
+
+
+}
+#route-logo{
+  /* width: 128px;
+  height: 128px; */
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  /* padding-top: 50px; */
+  top:100px;
+  text-align: center;
+
+  /* margin: 0 auto; */
+
+}
+#schedule-logo{
+  /* width: 128px;
+  height: 128px; */
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  /* padding-top: 50px; */
+  top:120px;
+  text-align: center;
+
+  /* margin: 0 auto; */
+
+}
+#check-logo{
+  /* width: 128px;
+  height: 128px; */
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  /* padding-top: 50px; */
+  top:150px;
+  text-align: center;
+
+  /* margin: 0 auto; */
+
+}
+#elements{
+  font-family: AvenirNext-Regular;
+  font-size: 18px;
+  color: #515151;
+  letter-spacing: 0.34px;
+  text-align: center;
+
+  width:50%;
+  margin: 0 auto;
+
+}
+
+
+input[type=submit] {
+    background-color: #0A14C5;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* SUBMIT: */
+    font-family: HelveticaNeue-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.75px;
+
+}
+
+
+input[type=submit]:hover {
+    background-color: #050C73;
+}
+
+
+
+
+
+
+input[name=other-option]:focus{
+      outline: none;
+  }
+  .center-button{
+  text-align: center;
+  margin-top: 30px;
+  }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    
+    .left-container{
+      position: relative;
+      width: 100%;
+      height: auto;
+      min-height: auto;
+
+    }
+    #title{
+      top:80px;
+    }
+    .right-container{
+      position: relative;
+      width: 100%;
+      left:0;
+    }
+}
+  @media only screen and (max-width:1010px) {
+    /* p{
+      font-family: HelveticaNeue-Bold;
+      font-size: 24px;
+      color: #000000;
+      letter-spacing: 1.5px;
+      line-height: 49px;
+      text-align: center;
+
+    } */
+
+    #title{
+      padding:10px;
+    }
+
+  }
+
+
+  
